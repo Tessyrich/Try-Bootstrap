@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu,
+  .icon-mess {
+    display: none;
+  }
+  
+  .recent .first-title {
+    width: 30%;
+  }
+  
+  .recent .title {
+    width: 70%;
+    height: 2px;
+  }
+  
+  .recent .title .line {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: #000;
+  }
+  
+  .btn,
+  .btn-lg,
+  .card,
+  .card img,
+  .get-in {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+  
+  .btn,
+  .get-in {
+    background-color: #f55800 !important;
+    color: aliceblue !important;
+  }
+  
+  .btn .btn-lg:hover {
+    background-color: aliceblue !important;
+    color: #f55800;
+  }
+  
+  .first {
+    color: #f55800;
+  }
+  
+  .divi {
+    height: 1px;
+  }
+  
+  .tri {
+    width: 18px;
+    height: 18px;
+    background: #f55800;
+    transform: rotate(-45deg);
+  }
+  
+  .squ {
+    width: 18px;
+    height: 18px;
+    background: #f55800;
+  }
+  
+  .circle {
+    width: 18px;
+    height: 18px;
+    background: #f55800;
+    border-radius: 50%;
+  }
+  
+  input {
+    width: 100% !important;
+    height: 5vh;
+  }
+  
+  .input {
+    width: 70% !important;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 15vh;
+  }
+  
+  .last {
+    width: 50%;
+  }
+  
+  @media (max-width: 375px) {
+    .banner .d-lg-flex {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .incons {
+      display: flex;
+    }
+  
+    .recent .first-title {
+      width: 100%;
+    }
+  
+    .recent .title {
+      width: 100%;
+      position: relative;
+    }
+  }
+  
